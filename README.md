@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Zears14
 - 👀 I’m interested in UI Designing
-- 🌱 I’m currently learning C# and Lua
+- 🌱 I’m currently learning C# and Lua and maybe C++
 - 💞️ I’m looking to collaborate on Nothing
 - 📫 How to reach me Nothing
 
