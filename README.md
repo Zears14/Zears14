@@ -9,11 +9,11 @@
 - 📫 How to reach me [ryugraka@gmail.com](mailto://ryugraka@gmail.com)
 
 <h2 align="center"> My Stats </h2>
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=zears14&show_icons=true&theme=onedark"/> </p>
+<p align="left"> 
+  <img width=51% src="https://github-readme-stats.vercel.app/api?username=zears14&show_icons=true&theme=onedark"/>
+  <img width=47% src="https://github-readme-stats.vercel.app/api/top-langs?username=zears14&show_icons=true&locale=en&layout=compact"/>
+</p>
 
-<h2 align="center"> Top Languages Used </h2>
-
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zears14&show_icons=true&locale=en&layout=compact"/> </p>
 
 <h2 align="center"> Social Media </h2>
 
