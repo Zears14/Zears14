@@ -5,7 +5,7 @@
 - 👋 Hi, I’m @Zears14
 - 👀 I’m interested in Cryptography
 - 🌱 I’m currently learning C# and Shell
-- 💞️ If you like my work you could consider [Donating](https://ko-fi.com/zears)
+- 💞 If you like my work, you might consider [donating](https://ko-fi.com/zears)
 - 📫 How to reach me [ryugraka@gmail.com](mailto://ryugraka@gmail.com)
 
 <h2 align="center"> My Stats </h2>
@@ -39,7 +39,7 @@
 
 
 <h2 align="center"> Donation </h2>
-<p align=center>Thats it, if you like my work you could consider donating. It means alot :)</p>
+<p align=center>That's it. If you like my work, you could consider donating. It means a lot. :)</p>
 
 <p align="center"> <a href="https://ko-fi.com/zears" text-align="center" > <img align="center" src="https://img.shields.io/static/v1?label=+&message=Buy+Me+A+Coffee&color=6F4E37&style=for-the-badge&logo=kofi&logoColor=white"/> </a> </p>
 <!---
