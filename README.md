@@ -14,6 +14,14 @@
   <img width=47% src="https://github-readme-stats.vercel.app/api/top-langs?username=zears14&show_icons=true&locale=en&layout=compact"/>
 </p>
 
+<h2 align="center"> Languages Used </h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
+  <img src="https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white"/>
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
+</p>
 
 <h2 align="center"> Social Media </h2>
 
