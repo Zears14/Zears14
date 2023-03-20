@@ -1,11 +1,11 @@
-<h1 align="center"> You Found Me </h1>
+<h1 align="center">Its, me Zears 👋 </h1>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=zears14&label=Profile%20views&color=0e75b6&style=for-the-badge"/> </p>
 
 
 - 👋 Hi, I’m @Zears14
 - 👀 I’m interested in Cryptography
 - 🌱 I’m currently learning C# and Shell
-- 💞️ If you like my work you could consider [Donating](https://ko-fi.com/zears)
+- 💞️ If you like my work you could consider [Donating](https://github.com/Zears14/Zears14/edit/main/README.md#-donation-)
 - 📫 How to reach me [ryugraka@gmail.com](mailto://ryugraka@gmail.com)
 
 <h2 align="center"> My Stats </h2>
