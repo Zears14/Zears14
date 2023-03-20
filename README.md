@@ -9,12 +9,11 @@
 - 📫 How to reach me [ryugraka@gmail.com](mailto://ryugraka@gmail.com)
 
 <h2 align="center"> My Stats </h2>
-
-![Zears stats](https://github-readme-stats.vercel.app/api?username=zears14&show_icons=true&theme=onedark)
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=zears14&show_icons=true&theme=onedark"/> </p>
 
 <h2 align="center"> Top Languages Used </h2>
 
-![](https://github-readme-stats.vercel.app/api/top-langs?username=zears14&show_icons=true&locale=en&layout=compact)
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zears14&show_icons=true&locale=en&layout=compact"/> </p>
 
 <h2 align="center"> Social Media </h2>
 
@@ -27,7 +26,7 @@
 <h2 align="center"> Donation </h2>
 <p align=center>Thats it, if you like my work you could consider donating. It means alot :)</p>
 
-<p align="center"> <a href="https://kofi.com/Zears" text-align="center" > <img align="center" src="https://img.shields.io/static/v1?label=+&message=Buy+Me+A+Coffee&color=6F4E37&style=for-the-badge&logo=kofi&logoColor=white"/> </a> </p>
+<p align="center"> <a href="https://ko-fi.com/zears" text-align="center" > <img align="center" src="https://img.shields.io/static/v1?label=+&message=Buy+Me+A+Coffee&color=6F4E37&style=for-the-badge&logo=kofi&logoColor=white"/> </a> </p>
 <!---
 Zears14/Zears14 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
