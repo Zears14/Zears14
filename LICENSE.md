@@ -20,8 +20,8 @@ Conditions:
    - ❌ Network use is distribution
 Limitations:
 
-    - ✔️ Liability
-    - ✔️ Warranty
+    - ❌ Liability
+    - ❌ Warranty
     - ❌ Trademark use
 
 Note:
