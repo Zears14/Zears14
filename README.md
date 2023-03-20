@@ -5,7 +5,7 @@
 - 👋 Hi, I’m @Zears14
 - 👀 I’m interested in Cryptography
 - 🌱 I’m currently learning C# and Shell
-- 💞️ If you like my work you could consider [Donating](https://github.com/Zears14/Zears14/edit/main/README.md#-donation-)
+- 💞️ If you like my work you could consider [Donating](https://ko-fi.com/zears)
 - 📫 How to reach me [ryugraka@gmail.com](mailto://ryugraka@gmail.com)
 
 <h2 align="center"> My Stats </h2>
