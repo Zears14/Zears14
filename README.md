@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Zears14
-- 👀 I’m interested in UI Designing
-- 🌱 I’m currently learning C# and JavaScript
-- 💞️ I’m looking to collaborate on currently nothing
+- 👀 I’m interested in Cryptography
+- 🌱 I’m currently learning C# and Shell
+- 💞️ If you like my work you could consider [Donating](https://ko-fi.com/zears)
 - 📫 How to reach me ryugraka@gmail.com
 
 
