@@ -20,9 +20,9 @@ Conditions:
    - ❌ Network use is distribution
 Limitations:
 
-    - ❌ Liability
-    - ❌ Warranty
-    - ❌ Trademark use
+   - ❌ Liability
+   - ❌ Warranty
+   - ❌ Trademark use
 
 Note:
   - ❗If a repository had a license its mean the license that used for the repository are diffrent than this
