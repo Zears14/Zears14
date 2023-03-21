@@ -15,7 +15,7 @@
   <img width=51% align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Zears14&theme=dark&hide_border=false"/>
 </p>
 
-<h2 align="center> Languages Used </h2>
+<h2 align="center"> Languages Used </h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white"/>
