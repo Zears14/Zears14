@@ -8,14 +8,18 @@
 - 💞 If you like my work, you might consider [donating](https://ko-fi.com/zears)
 - 📫 How to reach me ryugraka@gmail.com
 
-<h2 align="center"> My Stats </h2>
+<h2 align="center"> My Stats 📊 </h2>
+
+
 <p align="center"> 
-  <img width=33.33% src="https://github-readme-stats.vercel.app/api?username=zears14&show_icons=true&theme=onedark"/>
-  <img width=33.33% src="https://github-readme-stats.vercel.app/api/top-langs?username=zears14&show_icons=true&locale=en&layout=compact"/>
-  <img width=33.33% src="https://github-readme-streak-stats.herokuapp.com/?user=Zears14&theme=dark&hide_border=false"/>
+  <img width=51% src="https://github-readme-stats.vercel.app/api?username=zears14&show_icons=true&theme=onedark"/>
+  <img width=47% src="https://github-readme-stats.vercel.app/api/top-langs?username=zears14&show_icons=true&locale=en&layout=compact"/>
 </p>
 
-<h2 align="center"> Languages Used </h2>
+<h2 align="center"> Streak 🔥 </h2>
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Zears14&theme=dark&hide_border=false"/>
+
+<h2 align="center"> Languages Used 📋</h2>
 
 <p align="left">
   <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white"/>
@@ -24,11 +28,11 @@
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
 </p>
 
-<h2 align="center"> Trophy </h2>
+<h2 align="center"> Trophy 🏆</h2>
 
 <img src="https://github-profile-trophy.vercel.app/?username=Zears14&theme=onedark&no-frame=false&no-bg=true&margin-w=4"/>
 
-<h2 align="center"> Social Media </h2>
+<h2 align="center"> Social Media 📱</h2>
 
 <p align="center"> 
   <a href="https://youtube.com/@zears4825" text-align="center"> 
@@ -43,7 +47,7 @@
 
 
 
-<h2 align="center"> Donation </h2>
+<h2 align="center"> Donation 💸</h2>
 <p align=center>That's it. If you like my work, you could consider donating. It means a lot. :)</p>
 
 <p align="center"> 
