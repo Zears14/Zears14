@@ -10,9 +10,9 @@
 
 <h2 align="center"> My Stats </h2>
 <p align="center"> 
-  <img width=51% src="https://github-readme-stats.vercel.app/api?username=zears14&show_icons=true&theme=onedark"/>
-  <img width=47% src="https://github-readme-stats.vercel.app/api/top-langs?username=zears14&show_icons=true&locale=en&layout=compact"/>
-  <img width=51% align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Zears14&theme=dark&hide_border=false"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=zears14&show_icons=true&theme=onedark"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zears14&show_icons=true&locale=en&layout=compact"/>
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Zears14&theme=dark&hide_border=false"/>
 </p>
 
 <h2 align="center"> Languages Used </h2>
