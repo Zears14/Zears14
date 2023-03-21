@@ -6,11 +6,11 @@ By default, every repository unless noted specifically in the repository is lice
 
 Permissions:
 
-    - ✔️ Commercial use
-    - ✔️ Distribution
-    - ✔️ Modification
-    - ✔️ Private use
-    - ❌ Patent use
+   - ✔️ Commercial use
+   - ✔️ Distribution
+   - ✔️ Modification
+   - ✔️ Private use
+   - ❌ Patent use
 
 Conditions:
    - ✔️ License and copyright notice
