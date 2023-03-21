@@ -6,7 +6,7 @@
 - 👀 I’m interested in Cryptography
 - 🌱 I’m currently learning C# and Shell
 - 💞 If you like my work, you might consider [donating](https://ko-fi.com/zears)
-- 📫 How to reach me [ryugraka@gmail.com](mailto:ryugraka@gmail.com)
+- 📫 How to reach me [ryugraka@gmail.com](mailto: ryugraka@gmail.com)
 
 <h2 align="center"> My Stats </h2>
 <p align="left"> 
