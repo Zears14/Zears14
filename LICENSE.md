@@ -18,6 +18,7 @@ Conditions:
    - ✔️ Same license (library)
    - ❌ State changes
    - ❌ Network use is distribution
+
 Limitations:
 
    - ❌ Liability
