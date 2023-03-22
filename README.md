@@ -17,8 +17,9 @@
 </p>
 
 <h2 align="center"> Streak 🔥 </h2>
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Zears14&theme=dark&hide_border=false"/>
-
+<p align="center">
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Zears14&theme=dark&hide_border=false"/>
+</p>
 <h2 align="center"> Languages Used 📋</h2>
 
 <p align="center">
@@ -29,7 +30,6 @@
 </p>
 
 <h2 align="center"> Trophy 🏆</h2>
-
 <img src="https://github-profile-trophy.vercel.app/?username=Zears14&theme=onedark&no-frame=false&no-bg=true&margin-w=4"/>
 
 <h2 align="center"> Social Media 📱</h2>
