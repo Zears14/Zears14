@@ -61,7 +61,12 @@
     <img align="center" src="https://img.shields.io/static/v1?label=+&message=buy+me+a+coffee&color=FFDD00&style=for-the-badge&logo=buymeacoffee&logoColor=white"/> 
   </a>
 </p>
+
+<footer>
+  <a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xb8b88ede6cff20920802e7bd0d533edbf36f5406" text-align="center"> <sub>PGP Public Key</sub> </a>
+</footer>
+
 <!---
-Zears14/Zears14 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
