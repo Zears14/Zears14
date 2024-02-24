@@ -51,7 +51,7 @@
 <p align=center>That's it. If you like my work, you could consider donating. It means a lot. :)</p>
 
 <p align="center"> 
-  <a href="https://ko-fi.com/zears" text-align="center" > 
+  <a href="https://ko-fi.com/U7U6JM7H3" text-align="center" > 
     <img align="center" src="https://img.shields.io/static/v1?label=+&message=Ko-fi&color=01CAFE&style=for-the-badge&logo=kofi&logoColor=white"/> 
   </a>
   <a href="https://paypal.me/Zears126" text-align="center" > 
