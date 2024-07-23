@@ -2,11 +2,10 @@
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=zears14&label=Profile%20views&color=0e75b6&style=for-the-badge"/> </p>
 
 
-- 👋 Hi, I’m @Zears14
-- 👀 I’m interested in Cryptography
-- 🌱 I’m currently learning C# and Shell
+- 👋 Hi, I’m Zears (a.k.a Zears14)
+- 👀 I’m interested in Cryptography & Cybersecurity
+- 🌱 I’m currently learning Rust
 - 💞 If you like my work, you might consider [donating](https://ko-fi.com/zears)
-- 📫 How to reach me ryugraka@gmail.com
 
 <h2 align="center"> My Stats 📊 </h2>
 
@@ -38,10 +37,7 @@
   <a href="https://youtube.com/@zears4825" text-align="center"> 
     <img src="https://img.shields.io/static/v1?label=+&message=Zears&color=FF0000&style=for-the-badge&logo=youtube"/> 
   </a>
-  <a href="https://twitter.com/Zears14" text-align="center"> 
-    <img src="https://img.shields.io/static/v1?label=+&message=Zears14&color=1DA1F2&style=for-the-badge&logo=twitter&logoColor=white"/>
-  </a>
-  <img src="https://img.shields.io/static/v1?label=+&message=Zears%231422&color=5865F2&style=for-the-badge&logo=discord&logoColor=white"/>
+  <img src="https://img.shields.io/static/v1?label=+&message=zears14&color=5865F2&style=for-the-badge&logo=discord&logoColor=white"/>
 </p>
 
 
@@ -63,7 +59,7 @@
 </p>
 
 <footer>
-  <a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xb8b88ede6cff20920802e7bd0d533edbf36f5406" text-align="center"> <sub>PGP Public Key</sub> </a>
+  <a href="https://github.com/Zears14.gpg" text-align="center"> <sub>PGP Public Key</sub> </a>
 </footer>
 
 <!---
