@@ -62,6 +62,7 @@
 
 <footer>
   <a href="https://github.com/Zears14.gpg" text-align="center"> <sub>PGP Public Key</sub> </a>
+  <a href="https://github.com/Zears14.keys" text-align="center"> <sub>SSH Public Key</sub> </a>
 </footer>
 
 <!---
