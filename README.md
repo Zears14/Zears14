@@ -37,7 +37,9 @@
   <a href="https://youtube.com/@zears4825" text-align="center"> 
     <img src="https://img.shields.io/static/v1?label=+&message=Zears&color=FF0000&style=for-the-badge&logo=youtube"/> 
   </a>
-  <img src="https://img.shields.io/static/v1?label=+&message=zears14&color=5865F2&style=for-the-badge&logo=discord&logoColor=white"/>
+  <a href="https://discord.com/users/745984199588315216" text-align="center">
+    <img src="https://img.shields.io/static/v1?label=+&message=zears14&color=5865F2&style=for-the-badge&logo=discord&logoColor=white"/>
+  </a>
 </p>
 
 
