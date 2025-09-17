@@ -52,9 +52,6 @@
   <a href="https://ko-fi.com/U7U6JM7H3" text-align="center" > 
     <img align="center" src="https://img.shields.io/static/v1?label=+&message=Ko-fi&color=01CAFE&style=for-the-badge&logo=kofi&logoColor=white"/> 
   </a>
-  <a href="https://paypal.me/Zears126" text-align="center" > 
-    <img align="center" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"/> 
-  </a>
   <a href="https://www.buymeacoffee.com/zears" text-align="center" > 
     <img align="center" src="https://img.shields.io/static/v1?label=+&message=buy+me+a+coffee&color=FFDD00&style=for-the-badge&logo=buymeacoffee&logoColor=white"/> 
   </a>
