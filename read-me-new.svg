@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 660" width="100%" height="660">
+  <defs>
+    <!-- Cosmic Void Gradient -->
+    <linearGradient id="cosmic-depth" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141514" />
+      <stop offset="50%" stop-color="#0e0f0e" />
+      <stop offset="100%" stop-color="#080908" />
+    </linearGradient>
+
+    <!-- Dissipation Gradient for 'forever.' -->
+    <linearGradient id="forever-decay" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EE99A4" stop-opacity="1.0" />
+      <stop offset="55%" stop-color="#EE99A4" stop-opacity="0.9" />
+      <stop offset="85%" stop-color="#F3CEB7" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#79291F" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Nebula Glow -->
+    <radialGradient id="nebula-haze" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EE99A4" stop-opacity="0.14" />
+      <stop offset="50%" stop-color="#79291F" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#141514" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glow-candy" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#EE99A4" flood-opacity="0.8" result="flood"/>
+      <feComposite in="flood" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glow-sand" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#F3CEB7" flood-opacity="0.6" result="flood"/>
+      <feComposite in="flood" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="text-bloom" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+    </filter>
+  </defs>
+
+  <style>
+    /* Typography */
+    .cosmic-text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      text-transform: lowercase;
+      font-weight: 300;
+      fill: #F3CEB7;
+      font-size: 12.5px;
+      letter-spacing: 0.6px;
+    }
+
+    .acc-text { fill: #EE99A4; font-weight: 400; }
+    .dimmed { fill: #6b5a58; }
+
+    .cat-text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 11px;
+      font-weight: 400;
+      fill: #F3CEB7;
+      letter-spacing: 0px;
+      white-space: pre;
+    }
+
+    .hero-title {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      text-transform: lowercase;
+      font-weight: 300;
+      font-size: 40px;
+      letter-spacing: 2.5px;
+      fill: #F3CEB7;
+    }
+
+    /* 3-Tier Quote Typography */
+    .quote-lead {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      text-transform: lowercase;
+      font-weight: 200;
+      font-size: 13.5px;
+      letter-spacing: 4px;
+      fill: #F3CEB7;
+      opacity: 0.8;
+    }
+
+    .quote-punchline {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      text-transform: lowercase;
+      font-weight: 200;
+      font-size: 21.5px;
+      letter-spacing: 1px;
+      fill: #F3CEB7;
+    }
+
+    .quote-forever {
+      font-weight: 400;
+      fill: url(#forever-decay);
+    }
+
+    .quote-subtext {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      text-transform: lowercase;
+      font-weight: 300;
+      font-size: 11.5px;
+      letter-spacing: 2px;
+      fill: #EE99A4;
+      opacity: 0.72;
+    }
+
+    /* Linework */
+    .orbit-line { stroke: #79291F; fill: none; opacity: 0.35; stroke-width: 0.75px; }
+    .orbit-dash { stroke: #EE99A4; fill: none; opacity: 0.22; stroke-width: 0.5px; stroke-dasharray: 4 10; }
+    .hairline   { stroke: #79291F; fill: none; opacity: 0.45; stroke-width: 0.75px; }
+
+    /* Animations */
+    @keyframes twinkleFast {
+      0%, 100% { opacity: 0.25; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+    @keyframes twinkleSlow {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.85; }
+    }
+    @keyframes spinCW {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes floatCat {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-3px); }
+    }
+
+    .star-f { animation: twinkleFast 3s ease-in-out infinite; transform-origin: center; }
+    .star-s { animation: twinkleSlow 5.5s ease-in-out infinite; transform-origin: center; }
+    .star-s-d { animation: twinkleSlow 7s ease-in-out infinite 2s; transform-origin: center; }
+
+    .rot-cw { animation: spinCW 140s linear infinite; transform-origin: 380px 95px; }
+    .cat-float { animation: floatCat 5s ease-in-out infinite; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#cosmic-depth)" />
+  <rect x="12" y="12" width="456" height="636" fill="none" stroke="#79291F" stroke-width="0.75" opacity="0.3" />
+
+  <!-- Background Celestial Orbit Arc -->
+  <g class="rot-cw">
+    <circle cx="380" cy="95" r="140" class="orbit-dash" />
+    <circle cx="380" cy="95" r="90" class="orbit-line" stroke-dasharray="2 6" />
+    <circle cx="380" cy="5" r="1.5" fill="#EE99A4" filter="url(#glow-candy)" class="star-f"/>
+    <circle cx="380" cy="185" r="1.5" fill="#F3CEB7" filter="url(#glow-sand)" class="star-s"/>
+  </g>
+
+  <!-- Twinkling Ambient Stars -->
+  <circle cx="45" cy="45" r="1.4" fill="#EE99A4" filter="url(#glow-candy)" class="star-s" />
+  <circle cx="435" cy="55" r="1.6" fill="#F3CEB7" filter="url(#glow-sand)" class="star-s-d" />
+  <circle cx="30" cy="245" r="1.2" fill="#F3CEB7" class="star-s" />
+  <circle cx="445" cy="385" r="1.3" fill="#EE99A4" class="star-f" />
+  <circle cx="35" cy="500" r="1.4" fill="#F3CEB7" filter="url(#glow-sand)" class="star-f" />
+  <circle cx="435" cy="600" r="1.2" fill="#EE99A4" class="star-s" />
+
+  <!-- ========================================== -->
+  <!-- 01. HERO: SLEEPING CAT + ZEARS             -->
+  <!-- ========================================== -->
+  <g transform="translate(32, 58)">
+    <ellipse cx="95" cy="45" rx="85" ry="38" fill="url(#nebula-haze)" />
+
+    <g class="cat-float">
+      <text x="0" y="20" class="cat-text" xml:space="preserve">      |\      _,,,---,,_</text>
+      <text x="0" y="36" class="cat-text" xml:space="preserve"><tspan class="acc-text">ZZZzz</tspan> /,`.-'`'    -.  ;-;;,_</text>
+      <text x="0" y="52" class="cat-text" xml:space="preserve">      |,4-  ) )-,_. ,\ (  `'-'</text>
+      <text x="0" y="68" class="cat-text" xml:space="preserve">     '---''(_/--'  `-'\_)</text>
+    </g>
+  </g>
+
+  <g transform="translate(262, 70)">
+    <text x="0" y="28" class="hero-title">zears<tspan class="acc-text">.</tspan></text>
+    <text x="2" y="48" class="cosmic-text dimmed">tinkerer · phone lab</text>
+    <path d="M 2,58 L 45,58 L 52,52 L 155,52" class="hairline" opacity="0.6"/>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- 02. EXACT 3-LINE QUOTE STRUCTURE           -->
+  <!-- ========================================== -->
+  <g transform="translate(240, 192)">
+    <!-- Line 1: Whispered lead-in -->
+    <g transform="translate(0, 0)">
+      <line x1="-135" y1="-4" x2="-85" y2="-4" class="hairline" />
+      <circle cx="-85" cy="-4" r="1.2" fill="#F3CEB7" opacity="0.6" />
+
+      <text x="0" y="0" text-anchor="middle" class="quote-lead">remember that you</text>
+
+      <circle cx="85" cy="-4" r="1.2" fill="#F3CEB7" opacity="0.6" />
+      <line x1="85" y1="-4" x2="135" y2="-4" class="hairline" />
+    </g>
+
+    <!-- Line 2: The Core Punchline with Dissolving 'forever.' -->
+    <g transform="translate(0, 30)">
+      <!-- Soft blurred underglow behind forever. -->
+      <text x="0" y="0" text-anchor="middle" class="quote-punchline">
+        don't remember <tspan fill="#EE99A4" opacity="0.25" filter="url(#text-bloom)">forever.</tspan>
+      </text>
+      <!-- Crisp text with decay gradient -->
+      <text x="0" y="0" text-anchor="middle" class="quote-punchline">
+        don't remember <tspan class="quote-forever">forever.</tspan>
+      </text>
+    </g>
+
+    <!-- Line 3: Subordinate Subtext -->
+    <g transform="translate(0, 58)">
+      <line x1="-130" y1="-4" x2="-112" y2="-4" class="hairline" opacity="0.35" />
+      <text x="0" y="0" text-anchor="middle" class="quote-subtext">so remember me while you can</text>
+      <line x1="112" y1="-4" x2="130" y2="-4" class="hairline" opacity="0.35" />
+    </g>
+
+    <!-- Subtle Anchor Notch -->
+    <g transform="translate(0, 74)">
+      <circle cx="0" cy="0" r="1.5" fill="#79291F" />
+      <line x1="-18" y1="0" x2="-5" y2="0" stroke="#79291F" stroke-width="0.75" />
+      <line x1="5" y1="0" x2="18" y2="0" stroke="#79291F" stroke-width="0.75" />
+    </g>
+  </g>
+
+  <!-- Horizon Line Separator -->
+  <line x1="45" y1="288" x2="435" y2="288" class="orbit-line" opacity="0.45"/>
+  <circle cx="240" cy="288" r="2" fill="#141514" stroke="#EE99A4" stroke-width="0.8"/>
+
+  <!-- ========================================== -->
+  <!-- 03. STACK & BALANCED DETAILS GRID          -->
+  <!-- ========================================== -->
+
+  <!-- ROW 1: BIO & STACK -->
+  <g transform="translate(45, 330)">
+    <text x="0" y="0" class="cosmic-text acc-text">bio ✦</text>
+    <text x="0" y="22" class="cosmic-text">a random dude</text>
+    <text x="0" y="42" class="cosmic-text">tinkering with his phone.</text>
+  </g>
+
+  <g transform="translate(250, 330)">
+    <text x="0" y="0" class="cosmic-text acc-text">stack ✦</text>
+    <text x="0" y="22" class="cosmic-text">makefile · python · shell</text>
+    <text x="0" y="42" class="cosmic-text">c/cc · c# · js</text>
+  </g>
+
+  <!-- Mid Divider -->
+  <line x1="45" y1="410" x2="435" y2="410" class="orbit-line" opacity="0.25" stroke-dasharray="2 6" />
+  <circle cx="240" cy="410" r="1.2" fill="#EE99A4" opacity="0.5" />
+
+  <!-- ROW 2: TARGETS & IDENTITY -->
+  <g transform="translate(45, 450)">
+    <text x="0" y="0" class="cosmic-text acc-text">targets ✦</text>
+    <text x="0" y="22" class="cosmic-text">arm64 hardware</text>
+    <text x="0" y="42" class="cosmic-text">aosp kernels · wmk</text>
+  </g>
+
+  <g transform="translate(250, 450)">
+    <text x="0" y="0" class="cosmic-text acc-text">identity ✦ ed25519</text>
+    <text x="0" y="22" class="cosmic-text" font-size="11.5">73a7 a0aa 0e8c aac9 ff55</text>
+    <text x="0" y="40" class="cosmic-text" font-size="11.5">fd50 e039 31f3 6404 40f5</text>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- FOOTER ANCHOR                              -->
+  <!-- ========================================== -->
+  <g transform="translate(240, 580)">
+    <path d="M -30,0 L -10,0 L 0,-5 L 10,0 L 30,0" class="hairline" opacity="0.4"/>
+    <circle cx="0" cy="-5" r="1.5" fill="#EE99A4" filter="url(#glow-candy)"/>
+  </g>
+</svg>
